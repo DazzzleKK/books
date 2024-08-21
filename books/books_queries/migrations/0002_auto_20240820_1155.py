@@ -49,5 +49,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunPython(populate_models),
+        # migrations.RunPython(populate_models),
     ]
